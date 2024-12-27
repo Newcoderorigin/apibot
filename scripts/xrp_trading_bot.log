@@ -1,0 +1,89 @@
+2024-12-25 11:15:13 - ERROR - Error fetching wallet balance: Invalid base64-encoded string: number of data characters (17) cannot be 1 more than a multiple of 4
+2024-12-25 11:15:49 - INFO - Wallet balance:                 vol
+SHIB  1553344.59003
+XXRP            0.1
+2024-12-25 11:31:12 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:31:21 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:31:31 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:31:41 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:31:51 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:32:01 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:32:11 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:32:21 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:32:31 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:32:41 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:32:51 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:33:01 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:33:11 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:33:21 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:33:31 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:33:41 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:33:51 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:34:01 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:34:11 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:34:21 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:34:31 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:34:41 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:34:51 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:35:01 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:35:11 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:35:21 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:35:31 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:35:41 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:35:51 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:36:01 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:36:11 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:36:21 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:36:31 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:36:41 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:36:51 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:36:59 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:37:09 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:37:19 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:37:23 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:37:33 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:37:43 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:37:53 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:38:03 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:38:13 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:38:23 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:38:33 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:38:43 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:38:53 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:39:03 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:39:13 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:39:23 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:39:33 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:39:43 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:39:53 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:40:03 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:40:13 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:40:23 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:40:33 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:40:43 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:40:53 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:41:03 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:41:13 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:41:23 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:41:33 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:41:43 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:41:53 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:42:03 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:42:13 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:42:23 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:42:33 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:42:43 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:42:53 - ERROR - Error fetching wallet balance: KrakenAPI.get_account_balance() got an unexpected keyword argument 'timeout'
+2024-12-25 11:43:15 - INFO - Wallet balance:                 vol
+SHIB  1553344.59003
+XXRP            0.1
+2024-12-25 11:43:15 - WARNING - Non-numeric balance for asset vol: SHIB    1553344.59003
+XXRP              0.1
+Name: vol, dtype: object
+2024-12-25 11:48:42 - ERROR - Error fetching wallet balance: Incorrect padding
+2024-12-25 11:49:06 - INFO - Wallet balance:                 vol
+SHIB  1553344.59003
+XXRP            0.1
+2024-12-25 11:49:06 - WARNING - Non-numeric balance for asset vol: SHIB    1553344.59003
+XXRP              0.1
+Name: vol, dtype: object

@@ -1,0 +1,8 @@
+{
+    "api_key": "ohOVwjBXhZRCGum4xcw4n6jtULp4bNHt60gksaAtmxmu/r/+RsF6D3Ot",
+    "api_secret": "W39q2q5VIef0J0EshzCakDQS+sSf3IVQ7BtztyK80+77ih/7f/z0NZkMKniqJ7art8eBZqZQvLp7XrIAg8Rhjw==",
+    "live_trading": true,
+    "stop_loss": 0.95,
+    "take_profit": 1.05,
+    "risk_per_trade": 0.1
+}

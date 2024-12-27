@@ -1,0 +1,59 @@
+2024-12-24 17:03:20,682 - INFO - Checked status: API=Inactive, PnL=N/A, Bot=Stopped, WebTrader=Inactive
+2024-12-24 17:03:27,650 - INFO - Trading Bot started.
+2024-12-24 17:03:30,777 - ERROR - Error processing command: 'TradingBot' object has no attribute 'get_pnl'
+2024-12-24 17:05:09,987 - INFO - Web knowledge trader started.
+2024-12-24 17:05:24,357 - ERROR - Error processing command: HTTPSConnectionPool(host='api.example.com', port=443): Max retries exceeded with url: /market-news (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000014CA848EF50>: Failed to resolve 'api.example.com' ([Errno 11001] getaddrinfo failed)"))
+2024-12-24 17:28:54,921 - INFO - User exited the program via keyboard interrupt.
+2024-12-24 17:53:27,994 - INFO - Starting the trading bot server...
+2024-12-24 17:53:28,013 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-24 17:53:28,014 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-24 17:53:28,015 - INFO -  * Restarting with stat
+2024-12-24 17:53:30,614 - INFO - Starting the trading bot server...
+2024-12-24 17:53:30,625 - WARNING -  * Debugger is active!
+2024-12-24 17:53:30,630 - INFO -  * Debugger PIN: 119-179-876
+2024-12-24 17:54:14,180 - INFO - Initializing the ML model...
+2024-12-24 17:54:14,203 - INFO - Model successfully loaded from models/crypto_predictor.pt.
+2024-12-24 17:54:14,204 - INFO - 127.0.0.1 - - [24/Dec/2024 17:54:14] "GET / HTTP/1.1" 200 -
+2024-12-24 17:56:31,910 - INFO -  * Detected change in 'C:\\Users\\tavia\\PycharmProjects\\PythonProject6\\scripts\\ml_model.py', reloading
+2024-12-24 17:56:32,269 - INFO -  * Restarting with stat
+2024-12-24 17:56:34,780 - INFO - Starting the trading bot server...
+2024-12-24 17:56:34,790 - WARNING -  * Debugger is active!
+2024-12-24 17:56:34,794 - INFO -  * Debugger PIN: 119-179-876
+2024-12-24 17:57:23,696 - INFO - Starting the trading bot server...
+2024-12-24 17:57:23,715 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-24 17:57:23,715 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-24 17:57:23,716 - INFO -  * Restarting with stat
+2024-12-24 17:57:26,260 - INFO - Starting the trading bot server...
+2024-12-24 17:57:26,271 - WARNING -  * Debugger is active!
+2024-12-24 17:57:26,275 - INFO -  * Debugger PIN: 119-179-876
+2024-12-24 17:57:44,002 - INFO - Initializing the ML model...
+2024-12-24 17:57:44,002 - INFO - Loading model from path: models/crypto_predictor.pt
+2024-12-24 17:57:44,002 - INFO - Initializing model architecture...
+2024-12-24 17:57:44,004 - ERROR - Error loading model: Weights only load failed. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+Please file an issue with the following so that we can make `weights_only=True` compatible with your use case: WeightsUnpickler error: Unsupported operand 72
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+2024-12-24 17:57:44,005 - INFO - Model successfully loaded from models/crypto_predictor.pt.
+2024-12-24 17:57:44,005 - INFO - 127.0.0.1 - - [24/Dec/2024 17:57:44] "GET / HTTP/1.1" 200 -
+2024-12-24 18:02:07,287 - INFO -  * Detected change in 'C:\\Users\\tavia\\PycharmProjects\\PythonProject6\\scripts\\ml_model.py', reloading
+2024-12-24 18:02:07,592 - INFO -  * Restarting with stat
+2024-12-24 18:02:10,294 - INFO - Starting the trading bot server...
+2024-12-24 18:02:10,305 - WARNING -  * Debugger is active!
+2024-12-24 18:02:10,310 - INFO -  * Debugger PIN: 119-179-876
+2024-12-24 18:02:46,959 - INFO -  * Detected change in 'C:\\Users\\tavia\\PycharmProjects\\PythonProject6\\scripts\\ml_model.py', reloading
+2024-12-24 18:02:47,302 - INFO -  * Restarting with stat
+2024-12-24 18:02:49,963 - INFO - Starting the trading bot server...
+2024-12-24 18:02:49,973 - WARNING -  * Debugger is active!
+2024-12-24 18:02:49,978 - INFO -  * Debugger PIN: 119-179-876
+2024-12-24 18:03:36,238 - INFO -  * Detected change in 'C:\\Users\\tavia\\PycharmProjects\\PythonProject6\\scripts\\ml_model.py', reloading
+2024-12-24 18:03:36,557 - INFO -  * Restarting with stat
+2024-12-24 18:04:29,290 - INFO -  * Restarting with stat
+2024-12-24 18:08:39,908 - INFO -  * Restarting with stat
+2024-12-24 18:16:41,234 - INFO -  * Restarting with stat
+2024-12-24 19:08:43,803 - INFO - Starting the XRP Trading Bot...
+2024-12-24 19:08:43,803 - ERROR - An error occurred: XRPTradingBot.__init__() missing 3 required positional arguments: 'api_secret', 'api_passphrase', and 'model'
+2024-12-24 19:09:01,113 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2024-12-24 19:09:01,113 - INFO - [33mPress CTRL+C to quit[0m

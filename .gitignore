@@ -1,0 +1,17 @@
+# .env
+
+# Trading Configuration
+TRADE_GAIN=50.0
+TARGET_PROFIT=200.0
+MAX_SIMULATION_ATTEMPTS=10
+API_DELAY=2
+
+# Trading Parameters
+INITIAL_CAPITAL=10000.0    # Starting capital in USD
+TRADING_PAIR=BTCUSD        # Trading pair symbol (e.g., 'BTCUSD' or 'SHIBUSD')
+
+
+.env
+# Kraken API Credentials
+KRAKEN_API_KEY=Ih9JhFyfiHeEobylrpk5lNXbF/Loag7Q6p3UJ/U0t+QQ/6nUQB5i+8yf
+KRAKEN_API_SECRET=yV9UWH1CXpcqJ8Ngal5dOFTl84tJ0mlXOyzYd7WN4C7TQ+3Qj/1FwN8UwPgkuQvPk7lmfIjeXKkUIj7DVw3+uw==

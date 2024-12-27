@@ -1,0 +1,48 @@
+2024-12-26 18:14:58,271 - INFO - No existing model found at logistic_regression_model.pkl. Starting fresh.
+2024-12-26 18:14:58,271 - INFO - 
+--- Training Iteration 1 ---
+2024-12-26 18:14:58,628 - INFO - Buy at 0.42903 on 2023-05-09
+2024-12-26 18:14:58,628 - INFO - Sell at 0.4656 on 2023-05-23
+2024-12-26 18:14:58,630 - INFO - Buy at 0.63452 on 2023-08-04
+2024-12-26 18:14:58,631 - INFO - Sell at 0.53909 on 2023-10-03
+2024-12-26 18:14:58,636 - INFO - Buy at 0.54736 on 2024-04-12
+2024-12-26 18:14:58,638 - INFO - Sell at 0.52589 on 2024-07-13
+2024-12-26 18:14:58,639 - INFO - Buy at 0.48868 on 2024-08-05
+2024-12-26 18:14:58,640 - INFO - Sell at 0.58491 on 2024-09-20
+2024-12-26 18:14:58,642 - INFO - 
+Total Return of the Strategy: 0.00%
+2024-12-26 18:15:14,582 - INFO - No existing model found at logistic_regression_model.pkl. Starting fresh.
+2024-12-26 18:15:14,582 - INFO - 
+--- Training Iteration 1 ---
+2024-12-26 18:15:14,986 - INFO - Buy at 0.42903 on 2023-05-09
+2024-12-26 18:15:14,987 - INFO - Sell at 0.4656 on 2023-05-23
+2024-12-26 18:15:14,993 - INFO - Buy at 0.63452 on 2023-08-04
+2024-12-26 18:15:14,999 - INFO - Sell at 0.53909 on 2023-10-03
+2024-12-26 18:15:15,019 - INFO - Buy at 0.54736 on 2024-04-12
+2024-12-26 18:15:15,031 - INFO - Sell at 0.52589 on 2024-07-13
+2024-12-26 18:15:15,035 - INFO - Buy at 0.48868 on 2024-08-05
+2024-12-26 18:15:15,040 - INFO - Sell at 0.58491 on 2024-09-20
+2024-12-26 18:15:15,055 - INFO - 
+Total Return of the Strategy: 0.00%
+2024-12-26 18:19:29,337 - INFO - No existing model found at logistic_regression_model.pkl. Starting fresh.
+2024-12-26 18:19:29,337 - INFO - 
+--- Training Iteration 1 ---
+2024-12-26 18:19:29,639 - INFO - Buy at 0.42903 on 2023-05-09
+2024-12-26 18:19:29,639 - INFO - Sell at 0.4656 on 2023-05-23
+2024-12-26 18:19:29,640 - INFO - Buy at 0.63452 on 2023-08-04
+2024-12-26 18:19:29,641 - INFO - Sell at 0.53909 on 2023-10-03
+2024-12-26 18:19:29,646 - INFO - Buy at 0.54736 on 2024-04-12
+2024-12-26 18:19:29,648 - INFO - Sell at 0.52589 on 2024-07-13
+2024-12-26 18:19:29,649 - INFO - Buy at 0.48868 on 2024-08-05
+2024-12-26 18:19:29,650 - INFO - Sell at 0.58491 on 2024-09-20
+2024-12-26 18:19:29,653 - INFO - 
+Total Return of the Strategy: 0.00%
+2024-12-26 18:21:56,683 - INFO - No existing model found at random_forest_model.pkl. Starting fresh.
+2024-12-26 18:21:56,683 - INFO - 
+--- Training Iteration 1 ---
+2024-12-26 18:21:59,178 - INFO - No existing model found at random_forest_model.pkl. Starting fresh.
+2024-12-26 18:21:59,178 - INFO - 
+--- Training Iteration 1 ---
+2024-12-26 18:22:24,675 - INFO - No existing model found at random_forest_model.pkl. Starting fresh.
+2024-12-26 18:22:24,676 - INFO - 
+--- Training Iteration 1 ---

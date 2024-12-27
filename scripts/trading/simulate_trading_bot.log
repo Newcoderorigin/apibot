@@ -1,0 +1,6 @@
+2024-12-25 12:01:12 - INFO - Successfully connected to Kraken!
+2024-12-25 12:01:12 - INFO - Wallet balance:                 vol
+SHIB  1553344.59003
+XXRP            0.1
+2024-12-25 12:01:12 - ERROR - Error fetching best stock: KrakenAPI.get_ticker_information() missing 1 required positional argument: 'pair'
+2024-12-25 12:01:32 - INFO - Bot training complete.

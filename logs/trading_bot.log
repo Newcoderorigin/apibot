@@ -1,0 +1,111 @@
+import krakenex
+from pykrakenapi import KrakenAPI
+import logging
+import time
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(message)s", datefmt="%Y-%m-%d %H:%M:%S"
+)
+
+class SHIBTradingBot:
+    def __init__(self, api_key, private_key):
+        self.api = krakenex.API(key=api_key, secret=private_key)
+        self.kraken = KrakenAPI(self.api)
+        self.base_currency = "USD"  # Trading against USD
+        self.trade_currency = "SHIB"
+        self.target_profit = 200.0  # Profit target in USD
+        self.stop_loss_percent = 5.0  # Stop loss as a percentage
+        self.position_active = False
+        self.entry_price = 0.0
+
+    def get_balance(self):
+        """Fetch wallet balances."""
+        try:
+            balance = self.kraken.get_account_balance()
+            usd_balance = float(balance.get(self.base_currency, 0))
+            shib_balance = float(balance.get(self.trade_currency, 0))
+            return usd_balance, shib_balance
+        except Exception as e:
+            logging.error(f"Error fetching balance: {e}")
+            return 0, 0
+
+    def get_price(self):
+        """Fetch SHIB market price."""
+        try:
+            ticker = self.kraken.get_ticker_information(self.trade_currency + self.base_currency)
+            return float(ticker["c"][0])  # Current price
+        except Exception as e:
+            logging.error(f"Error fetching price: {e}")
+            return 0
+
+    def trade(self, action, volume):
+        """Place a buy or sell order."""
+        try:
+            logging.info(f"Placing {action} order for {volume:.4f} {self.trade_currency}.")
+            self.api.query_private("AddOrder", {
+                "pair": f"{self.trade_currency}{self.base_currency}",
+                "type": action,
+                "ordertype": "market",
+                "volume": str(volume),
+            })
+            logging.info(f"{action.capitalize()} order successfully placed.")
+        except Exception as e:
+            logging.error(f"Error executing {action} trade: {e}")
+
+    def start_trading(self):
+        """Main trading logic."""
+        while True:
+            usd_balance, shib_balance = self.get_balance()
+            price = self.get_price()
+
+            if price == 0:
+                logging.warning("Price fetch failed. Retrying...")
+                time.sleep(10)
+                continue
+
+            # Buy SHIB logic
+            if not self.position_active:
+                if usd_balance > 5:  # Minimum balance threshold
+                    shib_to_buy = (usd_balance * 0.98) / price  # Use 98% of USD balance
+                    self.trade("buy", shib_to_buy)
+                    self.entry_price = price
+                    self.position_active = True
+                    logging.info(
+                        f"Bought {shib_to_buy:.2f} SHIB at ${price:.8f}. Entry price set."
+                    )
+                else:
+                    logging.info("Insufficient USD balance to buy SHIB.")
+            else:
+                # Monitor active position
+                current_value = shib_balance * price
+                profit = current_value - (shib_balance * self.entry_price)
+                logging.info(
+                    f"Current profit: ${profit:.2f}, Target: ${self.target_profit:.2f}"
+                )
+
+                # Check for target profit or stop-loss
+                if profit >= self.target_profit:
+                    self.trade("sell", shib_balance)
+                    self.position_active = False
+                    logging.info(f"Profit target reached. Sold SHIB. Profit: ${profit:.2f}.")
+                elif price <= self.entry_price * (1 - self.stop_loss_percent / 100):
+                    self.trade("sell", shib_balance)
+                    self.position_active = False
+                    logging.warning(
+                        f"Stop-loss triggered. Sold SHIB at ${price:.8f}. Loss minimized."
+                    )
+
+            time.sleep(30)  # Check every 30 seconds
+
+
+if __name__ == "__main__":
+    # Kraken API keys
+    API_KEY = "YOUR_API_KEY"
+    PRIVATE_KEY = "YOUR_PRIVATE_KEY"
+
+    bot = SHIBTradingBot(API_KEY, PRIVATE_KEY)
+    bot.start_trading()
+2024-12-25 00:03:27 - INFO - Starting SHIB Trading Bot...
+2024-12-25 00:03:28 - INFO - SHIB balance: 0.0
+2024-12-25 00:03:28 - WARNING - Insufficient SHIB balance to start trading.
